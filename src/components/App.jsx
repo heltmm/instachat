@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import LeftColumn from "./LeftColumn";
 import NewsFeed from "./NewsFeed";
-import FriendList from "./FriendList";
+import FriendsList from "./FriendsList";
 
 function App(props){
   return (
@@ -10,7 +10,7 @@ function App(props){
       <Header/>
       <LeftColumn/>
       <NewsFeed/>
-      <FriendList/>
+      <FriendsList/>
     </div>
   );
 }
